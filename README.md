@@ -23,5 +23,6 @@ This file contains helper functions.
 
 ## Resources
 Seq2seq trainslation tutorial:https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
+
 Attention: https://pytorchnlp.readthedocs.io/en/latest/_modules/torchnlp/nn/attention.html
 Chinese Couplet dataset: https://github.com/wb14123/couplet-dataset
