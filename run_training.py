@@ -55,10 +55,10 @@ if __name__ == '__main__':
 	print("### Data loading ### ")
 
 	# Couplet path
-	in_path = "./in_clean.txt"
-	out_path = "./out_clean.txt"
+	in_path = "./in.txt"
+	out_path = "./out.txt"
 	# Vocabulary path
-	file_path = "./vocab_total_ori.txt"
+	file_path = "./vocab.txt"
 	# Load and clean couplet data
 	data_in, data_out, max_length = load_data(in_path,out_path,nb_couplets,with_all_couplets)
 	# Load vocabulary
