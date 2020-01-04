@@ -7,10 +7,10 @@ To run the project, you will need python3 along with the libraries *numpy*, *mat
 
 ### Datasets
 *vocab.txt* contains all vocabularies extracted from couplet datasets.
-*in.txt* contains couplet input for the training process.
-*out.txt* contains couplet input for the training process.
-*test_in.txt* contains couplet input for the evaluation process.
-*test_out.txt* contains couplet input for the evaluation process.
+*in.txt* contains couplet inputs for the training process.
+*out.txt* contains desired couplet outputs for the training process.
+*test_in.txt* contains couplet inputs for the evaluation process.
+*test_out.txt* contains desired couplet outputs for the evaluation process.
 
 
 ### Structure of the codes
@@ -22,10 +22,11 @@ The following command was used for training in this project.
 ```
 python run_training.py -a True -ep 204
 ```
-More hyperparameters can be tuned. Please refer to *help* for further information.
+Default values are used for other hyperparameters which can be tuned optionally. Please refer to *help* for further information.
 
 ##### - evaluation.ipynb
-The obatined model from *run_training.py* can be used in "evaluation.ipynb" in order to evaluate the model.
+The obatined model from *run_training.py* can be used in *evaluation.ipynb* in order to evaluate the model. If run *evaluateRandomly* method, the evaluation results can be displayed in the notebook and will also be saved locally in *couplet_outputs.txt* which contains the index of couplet in the *test_in.txt*, and the corresponding couplet input, the model answer and the desired answer (ground-truth). Further more, the attention plots of couplets are likewise displayed in notebook and saved as *png* files.
+
 ##### - encoderRNN.py
 This file contains codes for encoder.
 ##### - attention_II.py
