@@ -2,3 +2,4 @@ backup/
 __pycache__/
 *.png
 *_outputs.txt
+cou*.txt
