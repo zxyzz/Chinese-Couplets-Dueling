@@ -6,7 +6,8 @@
 To run the project, you will need python3 along with the libraries: 
 - `numpy`
 - `matplotlib`
-- `torch`<br/>
+- `torch`
+
 The codes are tested on `Python 3.7.3`.
 
 ### Datasets
@@ -41,9 +42,9 @@ This file contains codes for decoder constructed using bidirectional GRU with at
 This file contains helper functions.
 ##### - models
 This folder contains the trained encoder and decoder models.
-- II_enc_epoch_204.pt
+- `II_enc_epoch_204.pt`<br/>
 This is the encoder model trained for 204 epochs.
-- II_dec_epoch_204.pt
+- `II_dec_epoch_204.pt`<br/>
 This is the decoder model trained for 204 epochs.
 
 ### Resources
